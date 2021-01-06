@@ -1,24 +1,34 @@
 # Lysozyme in Water script
 
-Script developed to run the commands of the "Lysozyme in Water" tutorial in gromacs, more information on how to execute this tutorial is found in [Lysozyme in Water Tutorial] (http://www.mdtutorials.com/gmx/lysozyme/index.html)
+Script developed to run the commands of the "Lysozyme in Water" tutorial in gromacs, more information on how to execute this tutorial is found in [Lysozyme in Water Tutorial](http://www.mdtutorials.com/gmx/lysozyme/index.html)
 
 ## How to run the script 
 
 To run in this zipped file: Unpack this file, open the linux terminal and use the command
 
-    ```
-    ./dynamics.sh files/1aki.pdb files/
-    ```
+```
+./dynamics.sh files/1aki.pdb files/
+```
 
 To run the script: open the linux terminal and use the command
 
-    ```
-    ./dynamics.sh input_path/file_name.pdb output_path/
-    ``` 
+```
+./dynamics.sh input_path/file_name.pdb output_path/
+``` 
 
 ## Force field parameters
 
-1 AMBER03; 5 AMBER99SB; 6 AMBER99SB-ILDN; 8 CHARMM27; 9 GROMOS96 43a1; 10 GROMOS96 43a2; 11 GROMOS96 45a3; 12 GROMOS96 53a5; 13 GROMOS96 53a6; 14 GROMOS96 54a7; 15 OPLS-AA/L
+(1) AMBER03
+(5) AMBER99SB
+(6) AMBER99SB-ILDN
+(8) CHARMM27
+(9) GROMOS96 43a1
+(10) GROMOS96 43a2
+(11) GROMOS96 45a3
+(12) GROMOS96 53a5
+(13) GROMOS96 53a6
+(14) GROMOS96 54a7
+(15) OPLS-AA/L
 
 ## Water model 
 
@@ -29,7 +39,9 @@ To run the script: open the linux terminal and use the command
 ## Observations
 
 **1. This script has been elaborated as a straight-forward way to execute all the commands in gromacs tutorial "Lysozyme in Water", but changes in parameters are necessary as the objective of the molecular dynamics changes.**
+
 **2. All the parameters changes involving the script is presented above in this README. Other parameters may be found at [Gromacs page](http://www.gromacs.org/) or at the tutorial page presented in the begining of this description** 
+
 **3. I am not affiliated to Gromacs Team. I am a PhD Student trying to help others to have a quicker way to run this tutorial.**
 
 ## Author
