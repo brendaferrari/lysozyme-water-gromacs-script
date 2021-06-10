@@ -44,6 +44,7 @@ To run the script: open the linux terminal and use the command
 
 **3. I am not affiliated to Gromacs Team. I am a PhD Student trying to help others to have a quicker way to run this tutorial.**
 
-## Author
+## Authorship
 
-* **Brenda Ferrari** [brendaferrari](https://github.com/brendaferrari)
+* Author: **Brenda Ferrari** [brendaferrari](https://github.com/brendaferrari)
+* Review: **Lucas Andrade** [lbertoncello](https://github.com/lbertoncello)
